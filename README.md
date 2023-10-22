@@ -1,15 +1,22 @@
-# Portofolio Data Science
+# Ch. 3: Data Science
+This is the assignment from Chapter 3: Data Science.
 
-Selamat datang di portofolio Data Science saya ketika Studi Independen bersama Startup Campus! Di sini, saya menyimpan berbagai proyek dan tugas yang telah saya kerjakan menggunakan Google Colab.
+In this chapter, I do data visualization, data modeling, and KPI Metric Comparison/Explanation.
 
-## Tugas Google Colab
+## Background
+HR professionals generally lag behind with respect to analytics and data visualization competency. Thus, Dr. Carla Patalano set out to create their own HR-related dataset, which is used in one of the graduate MSHRM courses called HR Metrics and Analytics, at New England College of Business. He created this data set.
 
-### Tugas 1: Pengolahan Data dengan Pandas
+## Dataset
+https://raw.githubusercontent.com/Rietaros/kampus_merdeka/main/HRDataset_v14.csv
 
-- [Tugas 1](https://colab.research.google.com/drive/13c-Glg0LWFgTNpoHo_egt0ZDKOOy7ans?usp=sharing): Tugas pertama saya di mana saya belajar melakukan pengolahan data menggunakan Pandas dan melakukan visualisasi data menggunakan Matplotlib di Google Colab.
+## Task
+Task
+1. Answer multiple aggregations questions using Pandas. (please refer to .ipynb for detailed questions)
+2. Perform EDA on the target to find out how many feature variables are related to the termination of an employee's employment. (Most reasons, by department, by gender, etc.) Create data visualization according to EDA Steps (minimum 5 visualizations). Give us an insight from this step.
+3. Perform Machine Learning modeling to predict employee termination.
+4. Answer this question:
+  a. Is there any relationship between who a person works for (their manager) and their performance score?
+  b. What are our best recruiting sources if we want to ensure a low ratio of termination?
 
-## Cara Mengakses Proyek dan Tugas
-
-Setiap proyek atau tugas memiliki link yang mengarah langsung ke file notebook di Google Colab. Silakan klik pada link yang diinginkan untuk melihat hasil pekerjaan saya.
-
-Terima kasih telah mengunjungi portofolio saya! Jika Anda memiliki pertanyaan atau umpan balik, jangan ragu untuk menghubungi saya.
+## Explain
+In this project, I'm using pandas to work with and change data from a dataset. I'm also using seaborn to create visualizations that help me understand how different columns in the dataset are related. After that, I'm using this dataset to build a machine learning model that can make predictions.
